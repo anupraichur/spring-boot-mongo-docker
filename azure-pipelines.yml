@@ -6,9 +6,9 @@
 trigger:
 - main
 
-pool:myUbuntuAgentsPool
+pool: myUbuntuAgentsPool
 
-steps:
+steps: 
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
